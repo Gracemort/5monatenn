@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌 Самое лучшее поздравление для моего котёночка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ========================================================= */
+        /* ОСНОВНАЯ СТИЛИЗАЦИЯ СТРАНИЦЫ И ВИНТАЖНЫЙ ФОН */
+        /* ========================================================= */
+        
+        body {
+            background-color: #FBF0E9; /* Мягкий, светлый, бумажный фон */
+            font-family: 'Lora', serif;
+            color: #4A3A2F; /* Темно-коричневый текст */
+            text-align: center;
+            padding: 40px 20px;
+            margin: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* КОНТЕЙНЕР: Имитация открытки */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            border: 6px solid #D98880; /* Толстая розовая/вишневая рамка */
+            padding: 40px;
+            box-shadow: 10px 10px 0px 0px #F9D87E; /* Винтажная желтая тень */
+            border-radius: 12px;
+        }
+
+        /* ЗАГОЛОВКИ */
+        h1 {
+            font-family: 'Lora', serif;
+            font-size: 3.8em;
+            color: #9B2226; /* Глубокий бордовый цвет */
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-bottom: 3px dashed #F9D87E;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+            font-size: 2.5em;
+            color: #A39B8B;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        /* ========================================================= */
+        /* СЕКЦИЯ С ФОТОГРАФИЯМИ (КОЛЛАЖ) */
+        /* ========================================================= */
+        
+        .photo-collage {
+            display: flex;
+            flex-wrap: wrap; /* Позволяет фото переноситься на новую строку на маленьких экранах */
+            justify-content: center;
+            gap: 40px; /* Расстояние между фото */
+            margin: 50px 0;
+            padding: 20px 0;
+            border-top: 1px dashed #D98880;
+            border-bottom: 1px dashed #D98880;
+        }
+
+        .polaroid-photo {
+            /* СТИЛЬ ДЛЯ ВАШИХ ИЗОБРАЖЕНИЙ: Имитация Полароида */
+            width: 220px; /* Ширина всего блока "Полароид" */
+            height: auto;
+            background-color: #FFFFFF; /* Белый фон (рамка) */
+            padding: 8px 8px 30px 8px; /* Создание нижнего поля, как у полароида */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Реалистичная тень */
+            transition: transform 0.3s ease;
+            
+            /* Небольшой случайный поворот для винтажного эффекта */
+            transform: rotate(calc(var(--r) * 1deg)); 
+        }
+
+        .polaroid-photo img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover; /* Чтобы изображение хорошо вписалось в рамку */
+        }
+        
+        /* Эффект при наведении на фото */
+        .polaroid-photo:hover {
+            transform: scale(1.05) rotate(0deg) !important; /* Убираем поворот и увеличиваем */
+            z-index: 10;
+        }
+
+        /* ========================================================= */
+        /* СЕКЦИЯ СООБЩЕНИЯ И СПИСКА */
+        /* ========================================================= */
+        
+        .message {
+            background-color: #FAE4E2; /* Светлый розовый фон для выделения текста */
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border: 2px solid #D98880;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        /* Подпись */
+        .signature {
+            font-family: 'Sacramento', cursive;
+            font-size: 3em;
+            margin-top: 50px;
+            color: #9B2226;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Уже пять месяцев. Представляешь?</h1>
+        
+        
+        <div class="photo-collage">
+            
+            <div class="polaroid-photo" style="--r: -5;">
+                <img src="photo_1.JPG" alt="Наше первое свидание было в Нюрнберге">
+            </div>
+
+            <div class="polaroid-photo" style="--r: 3;">
+                <img src="photo_2025-11-09_19-45-50.JPG" alt="Были так счастливы в Йиглаве">
+            </div>
+
+            <div class="polaroid-photo" style="--r: -8;">
+                <img src="photo_2.jpg" alt="Наслаждались друг другом в Праге">
+            </div>
+            
+        </div>
+        <div class="message">
+            <p>Ты — моё самое яркое солнце, моё вдохновение и моя самая большая радость. Каждый день с тобой — это невероятный подарок, который я ценю больше всего на свете. Я люблю тебя всем сердцем и с каждым днём эта любовь продолжает расти.</p>
+            <p>Пусть этот день будет таким же волшебным и прекрасным, как ты, а я обещаю сделать его незабываемым.</p>
+        </div>
+
+        <h3>...и миллион причин, почему я тебя люблю:</h3>
+        
+        <ul style="list-style: '💖 '; padding-left: 20px; text-align: left; display: inline-block;">
+            <li>Твоя способность видеть красоту в мелочах.</li>
+            <li>Твой сияющие глаза, которые я обожаю.</li>
+            <li>То, как ты всегда веришь в меня.</li>
+            <li>Твои самые крепкие объятия.</li>
+            <li>И просто за то, что ты — моя!</li>
+
+            <li>Миллион причин я скажу тебе глядя в глаза, чтобы услышать твоё милое: "Ну, зай, не смущай меня".
+            Ведь именно это я в тебе люблю. Твою расслабленность рядом со мной и то, как ты доверяешь.
+            И ради этого я горы сверну, чтобы увидеть, как ты сияешь.</li>
+        </ul>
+
+        <div class="signature">
+            Всегда. 
+     
+        </div>
+
+    </div>
+
+</body>
+</html>
